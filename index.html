@@ -9,10 +9,10 @@
 
   <body>
 
-    <header class="contant-container">
+    <header class="contant-container header-contant">
       <a class="logo-container" href="#">
         <img class="logo" src="../images/logo/header-logo.svg" width="137" height="56" alt="Глейси Шоп">
-    </a>
+      </a>
       <nav class="main-navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -44,8 +44,93 @@
 
     <main class="main-container">
       <section class="promo position">
-        <!-- удалить и сделать блок слайдер по макету -->
-        <img src="../images/slider.jpg" width="1170" height="554">
+        <h1 class="visually-hidden">Магазин Глейси</h1>
+        <div class="wrapper-promo">
+          <div class="promo-title">
+            <h2 class="slider-title">Нежный пломбир
+              с клубничным джемом</h2>
+            <p class="slider-text">Натуральное мороженое из свежих сливок
+              и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи. </p>
+            <button class="button">Заказать</button>
+          </div>
+          <div class="promo-slider">
+            <ol class="slider-list">
+              <li class="slider-item slider-background-big current-slide">
+                <img class="slider-image" src="images/ice-cream-photo1.png" width="327" height="507"
+                  alt="Мороженое клубничное">
+              </li>
+              <li class="slider-item slider-background-small">
+                <img class="slider-image" src="images/ice-cream-photo2.png" width="66" height="150"
+                  alt="Мороженое сливочное">
+              </li>
+              <li class="slider-item slider-background-small">
+                <img class="slider-image" src="images/ice-cream-photo3.png" width="66" height="150"
+                  alt="Мороженое с Маршмеллоу">
+              </li>
+            </ol>
+            <div class="slider-controls">
+              <button class="slider-button slider-prev" type="button">
+                <span class="visually-hidden">Предыдущее фото</span>
+              </button>
+              <button class="slider-button slider-next" type="button">
+                <span class="visually-hidden">Следующее фото</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pagination-promo">
+          <ol class="paganation-promo-list">
+            <li class="paganation-promo-item">
+              <span class="visually-hidden">1 слайд</span>1
+            </li>
+            <li class="paganation-promo-item">
+              <span class="visually-hidden">2 слайд</span>2
+            </li>
+            <li class="paganation-promo-item">
+              <span class="visually-hidden">3 слайд</span>3
+            </li>
+          </ol>
+          <ul class="social-list">
+            <li class="social-item">
+              <span class="visually-hidden">Telegram</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" role="img"
+                aria-label="Телеграм">
+                <path fill="#FCFCFC" fill-rule="evenodd" d="M24 12a12 12 0 1 1-24 0 12 12 0 0 1 24
+                0ZM12.43 8.86c-1.17.48-3.5 1.49-7 3.01-.57.23-.86.45-.9.67-.04.36.42.5 1.04.7l.27.08c.6.2 1.43.44
+               1.86.45.39 0 .82-.16 1.3-.48 3.27-2.21 4.96-3.33 5.06-3.35.08-.02.18-.04.25.02.07.07.07.18.06.22-.05.19-1.84
+               1.86-2.77 2.72a28.24 28.24 0 0 0-.82.79c-.57.54-1 .96.02 1.63.5.32.89.59 1.28.85a88.77 88.77 0 0 0 1.8
+                1.23c.5.35.95.67 1.5.62.32-.03.65-.33.82-1.23.4-2.13 1.18-6.73 1.36-8.63.01-.16 0-.31-.02-.47a.5.5 0 0
+               0-.17-.33.78.78 0 0 0-.46-.14c-.46.01-1.15.25-4.48 1.64Z" clip-rule="evenodd" />
+              </svg>
+            </li>
+            <li class="social-item">
+              <span class="visually-hidden">VKontakte</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" role="img"
+                aria-label="Вконтакте">
+                <path fill="#FCFCFC" fill-rule="evenodd" d="M24 12a12 12 0 1 1-24 0 12 12 0 0 1 24
+              0Zm-11.41 2.97h-.72s-1.58.09-2.98-1.18C7.37 12.4 6.03 9.65 6.03 9.65s-.07-.18
+              0-.27c.1-.1.36-.1.36-.1l1.72-.01s.16.02.27.1c.1.05.15.17.15.17s.28.61.65 1.17c.71 1.08
+              1.05 1.32 1.29 1.2.35-.16.25-1.53.25-1.53s0-.5-.18-.71c-.14-.17-.41-.22-.53-.24-.1-.01.06-.2.26-.3.31-.13.86-.13
+              1.5-.13.5 0 .65.03.84.07.46.1.44.41.41 1.08l-.02.7v.18c-.01.34-.02.73.23.88.13.07.45 0
+              1.26-1.19.38-.56.66-1.23.66-1.23s.07-.12.16-.17c.1-.05.24-.04.24-.04h1.8s.54-.06.63.15c.1.23-.2.75-.94
+              1.61-.7.82-1.03 1.12-1 1.38.01.2.23.38.66.72.89.73 1.13 1.1
+              1.18 1.2l.01.01c.4.58-.44.62-.44.62l-1.6.02s-.34.06-.8-.2a3.94
+              3.94 0 0 1-.69-.6c-.33-.34-.65-.66-.91-.58-.45.12-.44.96-.44.96s0
+              .18-.1.28c-.1.1-.32.12-.32.12Z" clip-rule="evenodd" />
+              </svg>
+            </li>
+            <li class="social-item">
+              <span class="visually-hidden">Youtube</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" role="img"
+                aria-label="Ютуб">
+                <path fill="#FCFCFC" d="m14 11.8-2.8-1.32c-.25-.11-.45.01-.45.29v2.46c0
+                .28.2.4.45.29L14 12.2c.25-.12.25-.3 0-.42ZM12 0a12 12 0 1 0 0 24 12 12 0 0
+                0 0-24Zm0 16.88c-6.14 0-6.25-.56-6.25-4.88s.1-4.88 6.25-4.88c6.14 0 6.25.56 6.25
+                4.88s-.1 4.88-6.25 4.88Z" />
+              </svg>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="gift-promo">
         <div class="header-contant">
@@ -78,14 +163,16 @@
       </section>
       <section class="tastes-ice position">
         <div class="header-contant">
-          <h2 class="header-contant-title tastes-ice-header">Попробуйте самые популярные<br> вкусы нашего мороженого</h2>
+          <h2 class="header-contant-title tastes-ice-header">Попробуйте самые популярные<br> вкусы нашего мороженого
+          </h2>
         </div>
         <div class="tastes-ice-contant">
           <ul class="tastes-ice-list">
             <li class="tastes-ice-item">
+              <img class="tastes-ice-photo" src="/images/tastes-ice-1.png" width="168" height="168" alt="Малина">
               <h3 class="tastes-ice-item-title">Малинка</h3>
               <p class="tastes-ice-item-contant">Сливочное мороженое с малиновым джемом</p>
-              <div>
+              <div class="buy-wrapper">
                 <span class="tastes-ice-item-price">310 ₽/кг</span>
                 <button class="button tastes-ice-button">
                   <span class="visually-hidden">В корзину</span>
@@ -93,20 +180,23 @@
               </div>
             </li>
             <li class="tastes-ice-item">
+              <img class="tastes-ice-photo" src="/images/tastes-ice-2.png" width="168" height="168" alt="Малина">
               <h3 class="tastes-ice-item-title">Фисташка</h3>
               <p class="tastes-ice-item-contant">Фисташковый пломбир с кусочками шоколада</p>
               <div>
-                <span class="tastes-ice-item-price">340 ₽/кг</span>
-                <button class="button tastes-ice-button">
-                  <span class="visually-hidden">В корзину</span>
-                </button>
-              </div>
+                <div class="buy-wrapper">
+                  <span class="tastes-ice-item-price">340 ₽/кг</span>
+                  <button class="button tastes-ice-button">
+                    <span class="visually-hidden">В корзину</span>
+                  </button>
+                </div>
             </li>
             <li class="tastes-ice-item">
+              <img class="tastes-ice-photo" src="/images/tastes-ice-3.png" width="168" height="168" alt="Малина">
               <h3 class="tastes-ice-item-title">Черника</h3>
               <p class="tastes-ice-item-contant">Крем-брюле
                 с черничным джемом</p>
-              <div>
+              <div class="buy-wrapper">
                 <span class="tastes-ice-item-price">330 ₽/кг</span>
                 <button class="button tastes-ice-button">
                   <span class="visually-hidden">В корзину</span>
@@ -114,10 +204,12 @@
               </div>
             </li>
             <li class="tastes-ice-item">
+              <img class="tastes-ice-photo" src="/images/tastes-ice-4.png" width="168" height="168" alt="Малина">
               <h3 class="tastes-ice-item-title">Бабл-гам</h3>
               <p class="tastes-ice-item-contant">Ванильный пломбир
                 со сладкой посыпкой</p>
-              <div>
+
+              <div class="buy-wrapper">
                 <span class="tastes-ice-item-price">320 ₽/кг</span>
                 <button class="button tastes-ice-button">
                   <span class="visually-hidden">В корзину</span>
@@ -165,12 +257,14 @@
               </a>
             </li>
             <li class="newsletter-item newsletter-item-subscribe">
-              <p class="newsletter-item-text">Подпишитесь на нашу сладкую рассылку и будьте всегда
-                в курсе всего самого вкусного,
-                что у нас происходит. Обещаем не спамить и не слать
-                всякой ненужной ерунды. Честно =)</p>
-              <input type="email">
-              <button class="button button-red">Отправить</button>
+              <form class="subscribe-form" action="" method="">
+                <p class="newsletter-item-text">Подпишитесь на нашу сладкую рассылку и будьте всегда
+                  в курсе всего самого вкусного,
+                  что у нас происходит. Обещаем не спамить и не слать
+                  всякой ненужной ерунды. Честно =)</p>
+                <input type="email">
+                <button class="button button-red">Отправить</button>
+              </form>
             </li>
           </ul>
         </div>
@@ -182,7 +276,8 @@
               Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
           </div>
           <div class="delivery-form-container">
-            <p class="delivery-form-title">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.</p>
+            <p class="delivery-form-title">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.
+            </p>
             <form class="delivery-form" action="">
               <label class="delivery-date">
                 Дата
@@ -216,9 +311,44 @@
 
     <footer class="contant-container footer-flex">
       <ul class="footer-list social-list">
-        <li class="social-item">TG</li>
-        <li class="social-item">VK</li>
-        <li class="social-item">YOUTUBE</li>
+        <li class="social-item">
+          <span class="visually-hidden">Telegram</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" role="img"
+            aria-label="Телеграм">
+            <path fill="#FCFCFC" fill-rule="evenodd" d="M24 12a12 12 0 1 1-24 0 12 12 0 0 1 24
+            0ZM12.43 8.86c-1.17.48-3.5 1.49-7 3.01-.57.23-.86.45-.9.67-.04.36.42.5 1.04.7l.27.08c.6.2 1.43.44
+           1.86.45.39 0 .82-.16 1.3-.48 3.27-2.21 4.96-3.33 5.06-3.35.08-.02.18-.04.25.02.07.07.07.18.06.22-.05.19-1.84
+           1.86-2.77 2.72a28.24 28.24 0 0 0-.82.79c-.57.54-1 .96.02 1.63.5.32.89.59 1.28.85a88.77 88.77 0 0 0 1.8
+            1.23c.5.35.95.67 1.5.62.32-.03.65-.33.82-1.23.4-2.13 1.18-6.73 1.36-8.63.01-.16 0-.31-.02-.47a.5.5 0 0
+           0-.17-.33.78.78 0 0 0-.46-.14c-.46.01-1.15.25-4.48 1.64Z" clip-rule="evenodd" />
+          </svg>
+        </li>
+        <li class="social-item">
+          <span class="visually-hidden">VKontakte</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" role="img"
+            aria-label="Вконтакте">
+            <path fill="#FCFCFC" fill-rule="evenodd" d="M24 12a12 12 0 1 1-24 0 12 12 0 0 1 24
+          0Zm-11.41 2.97h-.72s-1.58.09-2.98-1.18C7.37 12.4 6.03 9.65 6.03 9.65s-.07-.18
+          0-.27c.1-.1.36-.1.36-.1l1.72-.01s.16.02.27.1c.1.05.15.17.15.17s.28.61.65 1.17c.71 1.08
+          1.05 1.32 1.29 1.2.35-.16.25-1.53.25-1.53s0-.5-.18-.71c-.14-.17-.41-.22-.53-.24-.1-.01.06-.2.26-.3.31-.13.86-.13
+          1.5-.13.5 0 .65.03.84.07.46.1.44.41.41 1.08l-.02.7v.18c-.01.34-.02.73.23.88.13.07.45 0
+          1.26-1.19.38-.56.66-1.23.66-1.23s.07-.12.16-.17c.1-.05.24-.04.24-.04h1.8s.54-.06.63.15c.1.23-.2.75-.94
+          1.61-.7.82-1.03 1.12-1 1.38.01.2.23.38.66.72.89.73 1.13 1.1
+          1.18 1.2l.01.01c.4.58-.44.62-.44.62l-1.6.02s-.34.06-.8-.2a3.94
+          3.94 0 0 1-.69-.6c-.33-.34-.65-.66-.91-.58-.45.12-.44.96-.44.96s0
+          .18-.1.28c-.1.1-.32.12-.32.12Z" clip-rule="evenodd" />
+          </svg>
+        </li>
+        <li class="social-item">
+          <span class="visually-hidden">Youtube</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" role="img"
+            aria-label="Ютуб">
+            <path fill="#FCFCFC" d="m14 11.8-2.8-1.32c-.25-.11-.45.01-.45.29v2.46c0
+            .28.2.4.45.29L14 12.2c.25-.12.25-.3 0-.42ZM12 0a12 12 0 1 0 0 24 12 12 0 0
+            0 0-24Zm0 16.88c-6.14 0-6.25-.56-6.25-4.88s.1-4.88 6.25-4.88c6.14 0 6.25.56 6.25
+            4.88s-.1 4.88-6.25 4.88Z" />
+          </svg>
+        </li>
       </ul>
       <ul class="footer-list information-list">
         <li class="information-item">Для поставщиков</li>
@@ -228,7 +358,46 @@
       </ul>
       <div class="footer-logo-container">
         <a class="footer-logo" href="#">
-
+          <svg xmlns="http://www.w3.org/2000/svg" width="93" height="27" fill="none" viewBox="0 0 93 27">
+            <g fill="#2D3440" clip-path="url(#a)">
+              <path d="M0 10.42v2.08h1.99v-2.08H0ZM9.42 3.66c-1.26
+            0-2.28.58-2.92 1.4h-.07V0H4.79v12.5h1.64V8.21c0-1.72
+            1.07-2.95 2.64-2.95 1.49 0 2.35 1.11 2.35 2.6v4.64h1.65V7.57c0-2.38-1.47-3.9-3.65-3.9ZM21.53
+            3.9h-3.9V.88H16V3.9h-1.55v1.6h1.55v4.84c0 1.39.78 2.15 2.18
+            2.15h3.36v-1.61H18.5c-.55 0-.86-.32-.86-.86V5.5h3.89V3.9ZM33.25
+            3.68c-1.3 0-2.31.64-2.86 1.67h-.06a2.9 2.9 0 0 0-2.71-1.67c-1.14 0-2
+            .6-2.52 1.46h-.07V3.9h-1.58v8.59h1.65V8.09c0-1.61.84-2.8 2.12-2.83 1.21-.03
+            1.92.83 1.92 2.14v5.1h1.64V7.95c0-1.93 1.14-2.69 2.13-2.69 1.2 0 1.9.83 1.9
+            2.14v5.1h1.64V7.22c0-2.08-1.17-3.54-3.2-3.54ZM38.68 10.28c0 1.4.8 2.22 2.26
+            2.22h1.63v-1.6h-1.39c-.55 0-.86-.31-.86-.85V0h-1.64v10.28ZM23.38 15.94h-.07a3.75
+            3.75 0 0 0-3.07-1.49c-2.54-.03-4.36 1.85-4.36 4.5 0 2.68 1.85 4.56 4.34 4.53a3.66
+            3.66 0 0 0 3.09-1.57h.07v1.33H25v-8.55h-1.62v1.25Zm-2.91 5.95a2.83 2.83 0 0 1-2.95-2.93
+            2.83 2.83 0 0 1 2.95-2.94c1.75 0 2.89 1.31 2.89 2.94 0 1.6-1.14 2.93-2.9 2.93ZM35.75 17.8a4.28
+            4.28 0 0 0-4.36-3.35 4.37 4.37 0 0 0-4.54 4.5 4.39 4.39 0 0 0 4.54 4.53 4.3 4.3 0 0 0
+            4.36-3.4h-1.71a2.68 2.68 0 0 1-2.63 1.83 2.84 2.84 0 0 1-2.91-2.95 2.82 2.82 0 0 1 2.9-2.94
+            2.7 2.7 0 0 1 2.64 1.78h1.71ZM44.55 15.94h-.07a3.75 3.75 0 0 0-3.07-1.49c-2.54-.03-4.36
+            1.85-4.36 4.5 0 2.68 1.85 4.56 4.34 4.53a3.66 3.66 0 0 0
+            3.09-1.57h.07v1.33h1.62v-8.55h-1.62v1.25Zm-2.91 5.95a2.83 2.83 0 0
+            1-2.95-2.93 2.83 2.83 0 0 1 2.95-2.94c1.75 0 2.89 1.31 2.89 2.94 0
+            1.6-1.14 2.93-2.9 2.93ZM55.52 16.02h-.07a3.73 3.73 0 0 0-3.08-1.57c-2.5-.03-4.35 1.85-4.35 4.52
+            0 2.66 1.82 4.54 4.37 4.5A3.74 3.74 0 0 0 55.43 22h.09v1.25h1.63V10.8h-1.63v5.21Zm-2.9 5.89a2.83
+            2.83 0 0 1-2.95-2.94 2.83 2.83 0 0 1 2.94-2.93c1.75 0 2.9 1.33 2.9 2.93a2.82 2.82 0 0 1-2.9
+            2.94ZM63.34 14.45a4.36 4.36 0 0 0-4.43 4.52c0 2.44 1.7 4.5 4.47 4.5 2 0 3.62-1.08
+            4.19-2.9h-1.71c-.39.82-1.3 1.34-2.41 1.34-1.56 0-2.67-1.04-2.79-2.37h7.08c.23-2.84-1.56-5.09-4.4-5.09Zm-.03
+            1.57a2.6 2.6 0 0 1 2.65 2.07H60.7a2.57 2.57 0 0 1 2.61-2.07ZM79.41 14.47c-1.31 0-2.32.64-2.87
+            1.66h-.05c-.5-1-1.44-1.66-2.72-1.66-1.14 0-2.01.6-2.53
+            1.45h-.07v-1.23H69.6v8.55h1.65v-4.39c0-1.6.85-2.78 2.13-2.81 1.21-.03 1.92.83 1.92
+            2.12v5.08h1.65v-4.52c0-1.92 1.14-2.68 2.13-2.68 1.2 0 1.9.83 1.9
+            2.12v5.08h1.65v-5.25c0-2.07-1.18-3.52-3.2-3.52ZM88.5
+            21.87l-2.94-7.18h-1.82l3.92 9.36-.02.03c-.28.71-.59.97-1.35.97h-2.03v1.64h2.03c1.49 0
+            2.28-.67 2.84-2.12l3.77-9.88h-1.68l-2.72 7.18Z" />
+            </g>
+            <defs>
+              <clipPath id="a">
+                <path fill="#fff" d="M0 0h93v26.71H0z" />
+              </clipPath>
+            </defs>
+          </svg>
         </a>
         <span class="about-logo">Сделано в .html academy © 2021</span>
       </div>
