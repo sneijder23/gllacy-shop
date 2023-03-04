@@ -4,6 +4,8 @@
   <head>
     <meta charset="UTF-8">
     <title>HTML Academy: Глейси</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon/favicon.png">
     <link rel="stylesheet" href="styles/styles.css" type="text/css">
   </head>
 
@@ -11,7 +13,7 @@
 
     <header class="contant-container header-contant">
       <a class="logo-container" href="#">
-        <img class="logo" src="../images/logo/header-logo.svg" width="137" height="56" alt="Глейси Шоп">
+        <img class="logo" src="images/logo/header-logo.svg" width="137" height="56" alt="Глейси Шоп">
       </a>
       <nav class="main-navigation">
         <ul class="navigation-list">
@@ -51,12 +53,12 @@
               с клубничным джемом</h2>
             <p class="slider-text">Натуральное мороженое из свежих сливок
               и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи. </p>
-            <button class="button">Заказать</button>
+            <button class="button button-grey">Заказать</button>
           </div>
           <div class="promo-slider">
             <ol class="slider-list">
               <li class="slider-item slider-background-big current-slide">
-                <img class="slider-image" src="images/ice-cream-photo1.png" width="327" height="507"
+                <img class="slider-image" src="images/ice-cream-photo1.png" width="329" height="507"
                   alt="Мороженое клубничное">
               </li>
               <li class="slider-item slider-background-small">
@@ -79,15 +81,15 @@
           </div>
         </div>
         <div class="pagination-promo">
-          <ol class="paganation-promo-list">
-            <li class="paganation-promo-item">
-              <span class="visually-hidden">1 слайд</span>1
+          <ol class="pagination-promo-list">
+            <li class="pagination-promo-item active-pagination">
+              <span class="visually-hidden">1 слайд</span>
             </li>
-            <li class="paganation-promo-item">
-              <span class="visually-hidden">2 слайд</span>2
+            <li class="pagination-promo-item">
+              <span class="visually-hidden">2 слайд</span>
             </li>
-            <li class="paganation-promo-item">
-              <span class="visually-hidden">3 слайд</span>3
+            <li class="pagination-promo-item">
+              <span class="visually-hidden">3 слайд</span>
             </li>
           </ol>
           <ul class="social-list">
@@ -133,43 +135,47 @@
         </div>
       </section>
       <section class="gift-promo">
-        <div class="header-contant">
+        <div class="section-header-contant">
           <h2 class="header-contant-title">Заказывайте мороженое<br> и получайте подарки!</h2>
         </div>
         <div class="gift-contant">
           <ul class="gift-card-list">
             <li class="gift-card-item gift-card-contant">
+              <div>
               <h3 class="gift-card-item-title">Малинка даром!</h3>
               <p class="gift-card-item-contant">При покупке 2 кг любого фруктового мороженого добавим
                 в ваш заказ банку малинового варенья бесплатно.</p>
-              <button class="button" type="button">Хочу подарок</button>
+              </div>
+              <button class="button button-grey gift-card-button" type="button">Хочу подарок</button>
             </li>
             <li class="gift-card-item">
-              <img class="gift-card-image" src="../images/malina.png" width="219" height="268" alt="Малина">
+              <img class="gift-card-image" src="images/malina.png" width="219" height="268" alt="Малина">
             </li>
           </ul>
           <ul class="gift-card-list">
             <li class="gift-card-item gift-card-contant">
+              <div>
               <h3 class="gift-card-item-title">Маршмеллоу даром!</h3>
               <p class="gift-card-item-contant">При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных
                 зефирок совершенно бесплатно.</p>
-              <button class="button" type="button">Хочу подарок</button>
+              </div>
+              <button class="button button-grey gift-card-button" type="button">Хочу подарок</button>
             </li>
             <li class="gift-card-item">
-              <img class="gift-card-image" src="../images/marshmallow.png" width="219" height="268" alt="Маршмеллоу">
+              <img class="gift-card-image" src="images/marshmallow.png" width="219" height="268" alt="Маршмеллоу">
             </li>
           </ul>
         </div>
       </section>
-      <section class="tastes-ice position">
-        <div class="header-contant">
+      <section class="tastes-ice">
+        <div class="section-header-contant">
           <h2 class="header-contant-title tastes-ice-header">Попробуйте самые популярные<br> вкусы нашего мороженого
           </h2>
         </div>
         <div class="tastes-ice-contant">
           <ul class="tastes-ice-list">
             <li class="tastes-ice-item">
-              <img class="tastes-ice-photo" src="/images/tastes-ice-1.png" width="168" height="168" alt="Малина">
+              <img class="tastes-ice-photo" src="images/tastes-ice-1.png" width="168" height="168" alt="Малина">
               <h3 class="tastes-ice-item-title">Малинка</h3>
               <p class="tastes-ice-item-contant">Сливочное мороженое с малиновым джемом</p>
               <div class="buy-wrapper">
@@ -180,7 +186,7 @@
               </div>
             </li>
             <li class="tastes-ice-item">
-              <img class="tastes-ice-photo" src="/images/tastes-ice-2.png" width="168" height="168" alt="Малина">
+              <img class="tastes-ice-photo" src="images/tastes-ice-2.png" width="168" height="168" alt="Малина">
               <h3 class="tastes-ice-item-title">Фисташка</h3>
               <p class="tastes-ice-item-contant">Фисташковый пломбир с кусочками шоколада</p>
               <div>
@@ -192,7 +198,7 @@
                 </div>
             </li>
             <li class="tastes-ice-item">
-              <img class="tastes-ice-photo" src="/images/tastes-ice-3.png" width="168" height="168" alt="Малина">
+              <img class="tastes-ice-photo" src="images/tastes-ice-3.png" width="168" height="168" alt="Малина">
               <h3 class="tastes-ice-item-title">Черника</h3>
               <p class="tastes-ice-item-contant">Крем-брюле
                 с черничным джемом</p>
@@ -204,7 +210,7 @@
               </div>
             </li>
             <li class="tastes-ice-item">
-              <img class="tastes-ice-photo" src="/images/tastes-ice-4.png" width="168" height="168" alt="Малина">
+              <img class="tastes-ice-photo" src="images/tastes-ice-4.png" width="168" height="168" alt="Малина">
               <h3 class="tastes-ice-item-title">Бабл-гам</h3>
               <p class="tastes-ice-item-contant">Ванильный пломбир
                 со сладкой посыпкой</p>
@@ -225,22 +231,22 @@
             <h2 class="header-contant-title glaccy-shop-title">Магазин Глейси – это онлайн и офлайн-магазин
               по продаже мороженого собственного производства на развес</h2>
             <ul class="advantage-list">
-              <li class="advantage-item">
+              <li class="advantage-item ice-icon">
                 <p class="advantage-text">Всё наше мороженое изготавливается на собственном
                   производстве с использованием современного оборудования и
                   проверенных временем технологий.</p>
               </li>
-              <li class="advantage-item">
+              <li class="advantage-item cow-icon">
                 <p class="advantage-text">Закупка ингредиентов производится только
                   у проверенных фермерских хозяйств, с которыми
                   нас связывает долговременное сотрудничество.</p>
               </li>
-              <li class="advantage-item">
+              <li class="advantage-item teaf-icon">
                 <p class="advantage-text">Для приготовления мороженого используются сливки и молоко
                   высочайшего качества. Все ингредиенты
                   и добавки произведены из натурального сырья.</p>
               </li>
-              <li class="advantage-item">
+              <li class="advantage-item thermometer-icon">
                 <p class="advantage-text">Доставка нашего мороженого осуществляется в специальном термопаке,
                   который не даёт мороженому растаять и позволяет сохранить превосходный вкус.</p>
               </li>
@@ -251,8 +257,8 @@
           <ul class="newsletter-list">
             <li class="newsletter-item newsletter-item-blog">
               <span class="newsletter-item-news">Новое в нашем блоге</span>
-              <a class="blog-tittle" href="#">
-                <h3>10 способов сервировки фруктовых щербетов
+              <a class="blog-title" href="#">
+                <h3 class="newsletter-blog-title">10 способов сервировки фруктовых щербетов
                   к столу</h3>
               </a>
             </li>
@@ -262,7 +268,7 @@
                   в курсе всего самого вкусного,
                   что у нас происходит. Обещаем не спамить и не слать
                   всякой ненужной ерунды. Честно =)</p>
-                <input type="email">
+                <input class="subscribe-form-email" type="email" placeholder="email@example.com">
                 <button class="button button-red">Отправить</button>
               </form>
             </li>
@@ -271,7 +277,7 @@
         <div class="delivery">
           <div class="delivery-inner-wrapper">
             <h2 class="header-contant-title delivery-title">Доставка любимого мороженого на дом</h2>
-            <p class="tastes-ice-item-contant">Хочется полакомиться любимым десертом, но нет времени съездить в
+            <p class="delivery-item-contant">Хочется полакомиться любимым десертом,<br> но нет времени съездить в
               магазин?
               Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
           </div>
@@ -279,17 +285,17 @@
             <p class="delivery-form-title">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.
             </p>
             <form class="delivery-form" action="">
-              <label class="delivery-date">
+              <label class="delivery-form-title">
                 Дата
-                <input type="text">
+                <input class="delivery-input delivery-date" type="text" placeholder="01.04.2020">
               </label>
-              <label class="delivery-telephone">
+              <label class="delivery-form-title">
                 Телефон
-                <input type="text">
+                <input class="delivery-input delivery-telephone" type="tel" placeholder="+7 800 999-00-00">
               </label>
-              <label class="delivery-address">
+              <label class="delivery-form-title">
                 Адрес
-                <input type="text">
+                <input class="delivery-input delivery-address" type="text" placeholder="ул. Большая Конюшенная, 19/8">
               </label>
               <button class="button button-red" type="button">Отправить</button>
             </form>
@@ -298,11 +304,13 @@
       </section>
       <section class="about">
         <div class="about-shop">
-          <dt>Адрес главного офиса<br> и офлайн-магазина:</dt>
-          <dd>наб. реки Карповки,<br> 5 лит П, Санкт-Петербург</dd>
-          <dt>Для заказов по телефону:</dt>
-          <dd>+7 (812) 812-12-12</dd>
-          <span>(с 10 до 20 ежедневно)</span>
+          <dt class="about-title">Адрес главного офиса<br> и офлайн-магазина:</dt>
+          <dd class="about-subtitle">наб. реки Карповки,<br> 5 лит П, Санкт-Петербург</dd>
+          <dt class="about-title">Для заказов по телефону:</dt>
+          <dd class="about-subtitle">
+            +7 (812) 812-12-12
+            <p class="about-subtitle-text">(с 10 до 20 ежедневно)</p>
+          </dd>
           <button class="button button-red" type="button">Форма обратной связи</button>
         </div>
       </section>
@@ -351,7 +359,7 @@
         </li>
       </ul>
       <ul class="footer-list information-list">
-        <li class="information-item">Для поставщиков</li>
+        <li class="information-item favorite-item">Для поставщиков</li>
         <li class="information-item">Наши документы</li>
         <li class="information-item">О производстве</li>
         <li class="information-item">Экологические стандарты</li>
@@ -399,7 +407,10 @@
             </defs>
           </svg>
         </a>
-        <span class="about-logo">Сделано в .html academy © 2021</span>
+        <span class="about-logo">Сделано в
+          <a class="footer-text-logo" href="https://htmlacademy.ru/">.html academy</a>
+          © 2021
+        </span>
       </div>
     </footer>
 
