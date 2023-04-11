@@ -19,5 +19,12 @@
   "css.lint.unknownVendorSpecificProperties": "warning",
   "css.lint.zeroUnits": "error",
   "html.format.endWithNewline": true,
-  "html.format.indentInnerHtml": true
+  "html.format.indentInnerHtml": true,
+  "scss.validate": false,
+  "css.validate": false,
+  "less.validate": false,
+
+   "editor.codeActionsOnSave": {
+     "source.fixAll.stylelint": true
+   }
 }
